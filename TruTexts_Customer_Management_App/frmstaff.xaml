@@ -1,0 +1,22 @@
+﻿<Window x:Class="TruTexts_Customer_Management_App.frmstaff"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TruTexts_Customer_Management_App"
+        mc:Ignorable="d"
+       Title="TruTexts (pty) Ltd Staff" Height="300" Width="340" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Window.Background>
+        <ImageBrush ImageSource="Backgrounds/OldPaper.jpg"/>
+    </Window.Background>
+    <Grid>
+        <Label x:Name="label" Content="TruTexts (pty) Ltd" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,15,0,0" Height="35" Width="240" FontFamily="Copperplate Gothic Bold" FontSize="22.667" FontWeight="Bold"/>
+        <Label x:Name="label1" Content="Employees" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,50,0,0" FontFamily="Copperplate Gothic Bold"/>
+        <Button x:Name="btnCustomer" Content="Customer" HorizontalAlignment="Left" VerticalAlignment="Top" Width="81" Margin="209,118,0,0" FontFamily="Copperplate Gothic Bold" Height="23" Click="btnCustomer_Click"/>
+        <Button x:Name="btnBack" Content="Back" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Margin="50,212,0,0" FontFamily="Copperplate Gothic Bold" Height="23" Click="btnBack_Click"/>
+        <Button x:Name="btnOrders" Content="Order" HorizontalAlignment="Left" VerticalAlignment="Top" Width="81" Margin="209,162,0,0" FontFamily="Copperplate Gothic Bold" Height="23" Click="btnOrders_Click"/>
+        <Label x:Name="label1_Copy" Content="Customer Info:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,118,0,0" FontFamily="Copperplate Gothic Bold"/>
+        <Label x:Name="label1_Copy1" Content="Order Data:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,162,0,0" FontFamily="Copperplate Gothic Bold"/>
+
+    </Grid>
+</Window>

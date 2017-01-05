@@ -1,0 +1,34 @@
+﻿<Window x:Class="TruTexts_Customer_Management_App.frmOrders"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TruTexts_Customer_Management_App"
+        mc:Ignorable="d"
+        Title="TruTexts (pty) Ltd Customer Orders" Height="500" Width="350" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <ImageBrush ImageSource="Backgrounds/OldPaper.jpg"/>
+    </Window.Background>
+    <Grid>
+        <Label x:Name="label" Content="TruTexts (pty) Ltd" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,15,0,0" Height="35" Width="240" FontFamily="Copperplate Gothic Bold" FontSize="22.667" FontWeight="Bold"/>
+        <Label x:Name="label1" Content="Customer Orders" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,50,0,0" FontFamily="Copperplate Gothic Bold"/>
+        <Label x:Name="label2" Content="Quantity:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="31,330,0,0" FontFamily="Copperplate Gothic Bold"/>
+        <Label x:Name="label3" Content="Timestamp:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="31,282,0,0" FontFamily="Copperplate Gothic Bold"/>
+        <Label x:Name="label4" Content="Book ID:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="31,241,0,0" FontFamily="Copperplate Gothic Bold"/>
+        <Label x:Name="label5" Content="Customer ID:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="31,199,0,0" FontFamily="Copperplate Gothic Bold"/>
+        <Label x:Name="label6" Content="Order ID:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="31,108,0,0" FontFamily="Copperplate Gothic Bold"/>
+        <TextBox x:Name="txtQty" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="126" Margin="182,330,0,0"/>
+        <TextBox x:Name="txtBookID" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="126" Margin="182,241,0,0"/>
+        <TextBox x:Name="txtOrderID" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="126" Margin="182,108,0,0"/>
+        <TextBox x:Name="txtCustID" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="126" Margin="182,199,0,0"/>
+        <Button x:Name="btnBack" Content="Back" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="31,427,0,-74" FontFamily="Copperplate Gothic Bold" Click="btnBack_Click"/>
+        <Button x:Name="btnDelete" Content="Delete" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="243,385,0,-32" FontFamily="Copperplate Gothic Bold" Click="btnDelete_Click"/>
+        <Button x:Name="btnUpdate" Content="Update" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="141,385,0,-32" FontFamily="Copperplate Gothic Bold" Click="btnUpdate_Click"/>
+        <Button x:Name="btnAdd" Content="Create" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="31,385,0,-32" FontFamily="Copperplate Gothic Bold" Click="btnAdd_Click"/>
+        <Button x:Name="btnSearch" Content="Search" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="233,147,0,0" FontFamily="Copperplate Gothic Bold" Click="btnSearch_Click"/>
+        <Button x:Name="btnReset" Content="Reset" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="243,427,0,-74" FontFamily="Copperplate Gothic Bold" Click="btnReset_Click"/>
+        <Label x:Name="lblError" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="31,145,0,0" Height="49" Width="158" FontFamily="Copperplate Gothic Bold" Foreground="#FFE81212"/>
+        <TextBox x:Name="txtTimestamp" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="126" Margin="182,282,0,0"/>
+
+    </Grid>
+</Window>

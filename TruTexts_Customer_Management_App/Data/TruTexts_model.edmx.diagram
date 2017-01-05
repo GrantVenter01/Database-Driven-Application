@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f37b7ede72c241a2a35cd35fa2c2dfa8" Name="Diagram1">
+        <EntityTypeShape EntityType="TruTexts_CustomersModel.Book" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TruTexts_CustomersModel.Customer" Width="1.5" PointX="0.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TruTexts_CustomersModel.Employee" Width="1.5" PointX="2.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TruTexts_CustomersModel.Login" Width="1.5" PointX="5" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TruTexts_CustomersModel.Order" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="TruTexts_CustomersModel.Role" Width="1.5" PointX="2.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TruTexts_CustomersModel.Supplier" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="TruTexts_CustomersModel.FK__Orders__BookID__145C0A3F" ManuallyRouted="false" />
+        <AssociationConnector Association="TruTexts_CustomersModel.FK__Suppliers__BookI__1920BF5C" ManuallyRouted="false" />
+        <AssociationConnector Association="TruTexts_CustomersModel.FK__Orders__Customer__15502E78" ManuallyRouted="false" />
+        <AssociationConnector Association="TruTexts_CustomersModel.FK__Login__EmpID__20C1E124" ManuallyRouted="false" />
+        <AssociationConnector Association="TruTexts_CustomersModel.FK__Login__Role__1FCDBCEB" ManuallyRouted="false" />
+        <AssociationConnector Association="TruTexts_CustomersModel.FK__Suppliers__Order__182C9B23" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

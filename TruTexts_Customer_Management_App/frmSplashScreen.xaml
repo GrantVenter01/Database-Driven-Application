@@ -1,0 +1,36 @@
+﻿<Window x:Class="TruTexts_Customer_Management_App.frmSplashScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TruTexts_Customer_Management_App"
+        mc:Ignorable="d"
+        Title="TruTexts (pty) Ltd" Height="400" Width="525" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <ImageBrush ImageSource="Backgrounds/TruTexts (pty) Ltd wallpaper.jpg"/>
+    </Window.Background>
+    <Grid>
+        <Label x:Name="lblLogoBack" Content="TruTexts (pty) Ltd" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="87,21,-106,0" Height="45" Width="311" FontFamily="Copperplate Gothic Bold" FontSize="29.333" FontWeight="Bold" Foreground="#FFD1D1D1" Background="{x:Null}" Opacity="0.6" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="11"/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label x:Name="lblLogo" Content="TruTexts (pty) Ltd" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="105,30,-124,0" Height="45" Width="311" FontFamily="Copperplate Gothic Bold" FontSize="29.333" FontWeight="Bold" Foreground="White" Background="{x:Null}" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="11"/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <ProgressBar x:Name="pgbTimer" Visibility="Hidden" HorizontalAlignment="Left" Height="10" Margin="202,330,-10,-70" VerticalAlignment="Top" Width="100"/>
+
+    </Grid>
+</Window>

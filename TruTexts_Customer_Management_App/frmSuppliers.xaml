@@ -1,0 +1,32 @@
+﻿<Window x:Class="TruTexts_Customer_Management_App.frmSuppliers"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TruTexts_Customer_Management_App"
+        mc:Ignorable="d"
+        Title="TruTexts (pty) Ltd Suppliers" Height="450" Width="350" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <ImageBrush ImageSource="Backgrounds/OldPaper.jpg"/>
+    </Window.Background>
+    <Grid>
+        <Label x:Name="label" Content="TruTexts (pty) Ltd" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,15,0,0" Height="35" Width="240" FontFamily="Copperplate Gothic Bold" FontSize="22.667" FontWeight="Bold"/>
+        <Label x:Name="label1" Content="Suppliers" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,50,0,0" FontFamily="Copperplate Gothic Bold"/>
+        <Label x:Name="label3" Content="Address:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="31,271,0,0" FontFamily="Copperplate Gothic Bold"/>
+        <Label x:Name="label4" Content="Cell Number:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="31,217,0,0" FontFamily="Copperplate Gothic Bold"/>
+        <Label x:Name="label5" Content="Name:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="31,172,0,0" FontFamily="Copperplate Gothic Bold"/>
+        <Label x:Name="label6" Content="Suppliers ID:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="31,90,0,0" FontFamily="Copperplate Gothic Bold"/>
+        <TextBox x:Name="txtAddress" HorizontalAlignment="Left" Height="45" TextWrapping="Wrap" VerticalAlignment="Top" Width="126" Margin="182,264,0,0"/>
+        <TextBox x:Name="txtNumber" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="126" Margin="182,217,0,0"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="126" Margin="182,172,0,0"/>
+        <TextBox x:Name="txtSuppID" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="126" Margin="182,90,0,0"/>
+        <Button x:Name="btnSearch" Content="Search" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="233,132,0,0" FontFamily="Copperplate Gothic Bold" Click="btnSearch_Click"/>
+        <Label x:Name="lblError" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="31,118,0,0" Height="49" Width="158" FontFamily="Copperplate Gothic Bold" Foreground="#FFE81212"/>
+        <Button x:Name="btnBack" Content="Back" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="31,378,0,0" FontFamily="Copperplate Gothic Bold" Click="btnBack_Click"/>
+        <Button x:Name="btnDelete" Content="Delete" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="243,338,0,0" FontFamily="Copperplate Gothic Bold" Click="btnDelete_Click"/>
+        <Button x:Name="btnUpdate" Content="Update" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="140,338,0,0" FontFamily="Copperplate Gothic Bold" Click="btnUpdate_Click"/>
+        <Button x:Name="btnAdd" Content="Create" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="31,338,0,0" FontFamily="Copperplate Gothic Bold" Click="btnAdd_Click"/>
+        <Button x:Name="btnReset" Content="Reset" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="243,378,0,0" FontFamily="Copperplate Gothic Bold" Click="btnReset_Click"/>
+
+    </Grid>
+</Window>

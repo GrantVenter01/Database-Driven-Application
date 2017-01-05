@@ -1,0 +1,28 @@
+﻿<Window x:Class="TruTexts_Customer_Management_App.frmManagement"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TruTexts_Customer_Management_App"
+        mc:Ignorable="d"
+        Title="TruTexts (pty) Ltd Management" Height="400" Width="350" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <ImageBrush ImageSource="Backgrounds/OldPaper.jpg"/>
+    </Window.Background>
+    <Grid>
+        <Label x:Name="label" Content="TruTexts (pty) Ltd" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,15,0,0" Height="35" Width="240" FontFamily="Copperplate Gothic Bold" FontSize="22.667" FontWeight="Bold"/>
+        <Label x:Name="label1" Content="Management" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,50,0,0" FontFamily="Copperplate Gothic Bold"/>
+        <Label x:Name="label1_Copy" Content="Book List:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="37,98,0,0" FontFamily="Copperplate Gothic Bold"/>
+        <Label x:Name="label1_Copy1" Content="Customer Info:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="37,137,0,0" FontFamily="Copperplate Gothic Bold"/>
+        <Label x:Name="label1_Copy2" Content="Employees:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="37,178,0,0" FontFamily="Copperplate Gothic Bold"/>
+        <Label x:Name="label1_Copy3" Content="Order Data:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="37,218,0,0" FontFamily="Copperplate Gothic Bold"/>
+        <Label x:Name="label1_Copy4" Content="Supplier Data:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="37,262,0,0" FontFamily="Copperplate Gothic Bold"/>
+        <Button x:Name="btnOrders" Content="Orders" HorizontalAlignment="Left" VerticalAlignment="Top" Width="91" Margin="215,218,0,0" Height="23" FontFamily="Copperplate Gothic Bold" Click="btnOrders_Click"/>
+        <Button x:Name="btnEmployees" Content="Employees" HorizontalAlignment="Left" VerticalAlignment="Top" Width="91" Margin="215,178,0,0" Height="23" FontFamily="Copperplate Gothic Bold" Click="btnEmployees_Click"/>
+        <Button x:Name="btnCustomers" Content="Customers" HorizontalAlignment="Left" VerticalAlignment="Top" Width="91" Margin="215,137,0,0" Height="23" FontFamily="Copperplate Gothic Bold" Click="btnCustomers_Click"/>
+        <Button x:Name="btnBooks" Content="Books" HorizontalAlignment="Left" VerticalAlignment="Top" Width="91" Margin="215,98,0,0" Height="23" FontFamily="Copperplate Gothic Bold" Click="btnBooks_Click" />
+        <Button x:Name="btnSuppliers" Content="Suppliers" HorizontalAlignment="Left" VerticalAlignment="Top" Width="91" Margin="215,262,0,0" Height="23" FontFamily="Copperplate Gothic Bold" Click="btnSuppliers_Click"/>
+        <Button x:Name="btnBack" Content="Back" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="37,321,0,0" Height="23" FontFamily="Copperplate Gothic Bold" Click="btnBack_Click"/>
+        
+    </Grid>
+</Window>
